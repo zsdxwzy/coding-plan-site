@@ -87,7 +87,7 @@ export const platformsData: PlatformsData = {
       link: "https://volcengine.com/L/WmPIEgflQmE/", updatedAt: "2026-03-28",
     },
     {
-      id: "baishan", name: "白云智算", region: "cn", category: "plan",
+      id: "baishan", name: "白山智算", region: "cn", category: "plan",
       badge: "送 ¥450", badgeColor: "yellow",
       desc: ["按量计费 · 无月费门槛", "注册送¥150 + 首次调用送¥300"],
       plans: [
