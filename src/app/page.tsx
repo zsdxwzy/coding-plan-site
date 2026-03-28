@@ -240,12 +240,14 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="mx-auto max-w-6xl border-t border-border px-6 py-10 text-center">
-        <p className="text-xs leading-7 text-text3">
-          ⚠️ 价格信息来源于各平台官网，可能随时变动，请以官网实际价格为准。
-          <br />
-          © 2026 CodingPlan.dev · 数据更新于 {platformsData.updatedAt}
-        </p>
+      <footer className="mx-auto max-w-6xl border-t border-border px-6 py-10">
+        <div className="mb-6 rounded-lg bg-bg3 px-5 py-4 text-xs leading-7 text-text3">
+          <p className="mb-2 font-semibold text-text2">📋 免责声明</p>
+          <p>本站所有价格数据来源于各平台官网公开信息，仅供参考和对比，我们不保证数据的准确性与时效性，请以各平台官网实际价格为准。</p>
+          <p>本站与任何平台无官方关联，不代表任何平台的立场。各平台名称、Logo 均为其各自商标所有权人的财产。</p>
+          <p>本站部分外链可能包含推广链接（Affiliate），通过这些链接购买不会增加您的费用，但我们可能获得少量佣金。我们会在有明显推广性质的链接旁予以标注。</p>
+        </div>
+        <p className="text-center text-xs text-text3">© 2026 CodingPlan.dev · 数据更新于 {platformsData.updatedAt}</p>
       </footer>
     </>
   );
